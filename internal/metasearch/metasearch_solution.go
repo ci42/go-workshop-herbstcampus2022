@@ -33,9 +33,9 @@ func MetaImageSearch(q string, timeout time.Duration) ([]scraper.Image, stats.St
 		}()
 	}
 
-	getImages(scraper.NewPexelsImgSearch(1, PexelsAPIKey))
-	getImages(scraper.NewPixabayImgSearch(1, PixabayAPIKey))
-	getImages(scraper.NewUnsplashImgSearch(1, UnsplashAPIKey))
+	getImages(scraper.NewPexelsImgSearch(timeout, PexelsAPIKey))
+	getImages(scraper.NewPixabayImgSearch(timeout, PixabayAPIKey))
+	getImages(scraper.NewUnsplashImgSearch(timeout, UnsplashAPIKey))
 
 	go func() {
 		wg.Wait()
