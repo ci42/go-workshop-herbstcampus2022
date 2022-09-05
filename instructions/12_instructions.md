@@ -2,6 +2,8 @@ Checke die Übung aus:
 
     git checkout exercises -- cmd/flags_test.go
 
+Füge dem Webserver eine Hanlder für die Metasuche hinzu. Gib das `IndexTemplate` befüllt mit dem Ergebnis der Metasuche zurück.
+
 Die Meta-Suche soll beim Start einen Parameter entegegennhemen können: mit `--timeout`
 soll bestimmt werden können, wie lange maximal nach Bildern gesucht werden soll.
 
