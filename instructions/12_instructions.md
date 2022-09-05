@@ -9,6 +9,10 @@ Es soll dabei möglich sein, Angaben wie: `--timeout=0.1s` oder `--timeout=400ms
 
 Das Paket `flag` ist dein Freund.
 
+Teste die Lösung mit:
+
+    go test ./...
+
 Eine (mögliche) Lösung findest Du hier:
 
     git checkout solutions -- cmd/flags_solution.go

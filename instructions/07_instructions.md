@@ -10,6 +10,10 @@ Lese das template für unsere webapp via `init()` Funktion unter Benutzung von `
 ein. Die Template Datei heißt `./web/templates/index.html`. Speicher das Template in der globalen `indexTemplate`
 Variable.
 
+Teste die Lösung mit:
+
+    go test ./...
+
 Eine (mögliche) Lösung findest Du hier:
 
     git checkout solutions -- web/tmpl_caching_solution.go

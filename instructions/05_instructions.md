@@ -21,6 +21,10 @@ Pexels: 20
 Unsplash: 100
 ```
 
+Teste die Lösung mit:
+
+    go test ./...
+
 Eine (mögliche) Lösung findest Du hier:
 
     git checkout solutions -- stats/stats_stringer_solution.go

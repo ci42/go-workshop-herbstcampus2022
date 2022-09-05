@@ -11,6 +11,10 @@ Eine mit dem Namen `Source` vom Typ `string` und eine weitere mit dem Namen
 Erzeuge den Typen in einer neuen Datei mit dem Namen `cnt.go`. Diese
 Datei gehört zu dem package `stats`.
 
+Teste die Lösung mit:
+
+    go test ./...
+
 Eine (mögliche) Lösung findest Du hier:
 
     git checkout solutions -- stats/cnt_solution.go

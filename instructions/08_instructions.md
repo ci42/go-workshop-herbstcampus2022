@@ -25,6 +25,10 @@ sollten folgendes Ausgeben:
 Pexels: 3
 Unsplash: 1
 ```
+Teste die Lösung mit:
+
+    go test ./...
+
 Eine (mögliche) Lösung findest Du hier:
 
     git checkout solutions -- stats/stats_inc_solution.go

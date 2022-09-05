@@ -17,9 +17,13 @@ Diese soll folgende Ergebnisse zurückliefern:
 
 - `error`: Fehler-Objekt falls ein Fehler aufgetreten ist, `nil` sonst
 
-Es sollen alle drei Bildersuchmachinen (pixabay, pexels und unsplash) gleichzeitig abgefragt werden. Wird
+Optialerweise sollen alle drei Bildersuchmachinen (pixabay, pexels und unsplash) gleichzeitig abgefragt werden. Wird
 das übergebene Timeout überschritten, soll sowohl ein Fehler als auch die bisher eingesammelten Bilder und Stats
 zurückgeliefert werden.
+
+Teste die Lösung mit:
+
+    go test ./...
 
 Eine (mögliche) Lösung findest Du hier:
 

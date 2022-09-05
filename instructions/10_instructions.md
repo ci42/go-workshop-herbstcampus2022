@@ -15,6 +15,10 @@ sollte ein HTML-Template zurückliefern
 
 Dokumentationen über HTTP Server und Client sind im Paket `net/http` zu finden.
 
+Teste die Lösung mit:
+
+    go test ./...
+
 Eine (mögliche) Lösung findest Du hier:
 
     git checkout solutions -- web/server/http_server_solution.go

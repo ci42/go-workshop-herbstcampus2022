@@ -5,6 +5,10 @@ Checke die Übung aus:
 Fixe den Deadlock in der Funktion helloTony in der Datei `race_condition.go`.
 Nutze zur Lösung eine Go-Routine, nicht einen gepufferten Channel.
 
+Teste die Lösung mit:
+
+    go test ./...
+
 Eine (mögliche) Lösung findest Du hier:
 
     git checkout solutions -- internal/concurrency/deadlock_solution.go

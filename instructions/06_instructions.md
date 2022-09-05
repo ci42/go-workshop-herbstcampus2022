@@ -17,6 +17,10 @@ https://go.dev/pkg/io/ioutil/
 
 https://go.dev/pkg/text/template/
 
+Teste die Lösung mit:
+
+    go test ./...
+
 Eine (mögliche) Lösung findest Du hier:
 
     git checkout solutions -- web/tmpl_solution.go
